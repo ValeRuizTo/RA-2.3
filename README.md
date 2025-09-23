@@ -1,4 +1,3 @@
-<img width="872" height="703" alt="image" src="https://github.com/user-attachments/assets/e79643ff-5824-4bda-8cc0-114efce903fb" /># Actividad de refuerzo 2.3
 ## Proyecto: Monitoreo Automático de Niveles de Tanque con PLC
 
 ### Introducción
