@@ -12,7 +12,7 @@ Un PlC es un dispositivo electronico que tiene como objetivo "la automatización
 
 ### Diseño del Sistema
 #### Definición de Estados del Tanque
-Los sensores empleados para la supervisión del tanque son interruptores de nivel (B1, B2, B3), ubicados en diferentes alturas:
+Los sensores empleados para la supervisión del tanque son interruptores de nivel (b1, b2, b3), ubicados en diferentes alturas:
 
 - B1 – Tank Empty: Detecta si el tanque está vacío.
 - B2 – Minimum Fill Level: Indica si se alcanzó un nivel mínimo aceptable.
@@ -34,3 +34,42 @@ Muestra todas las combinaciones posibles de entradas (b1, b2, b3) y las salidas 
 
   ![.](imagenesWiki/logico.png)
 
+El orden de bits/entradas son b1, b2, b3, siendo b1 = sensor inferior, b2 = sensor medio, b3 = sensor superior, es por esto mismo que los estados que son fisicamente validos son:
+          
+        000 = tanque vacío
+         
+        100 = nivel bajo (solo sensor inferior activado)
+        
+        110 = nivel correcto (inferior + medio)
+          
+        111 = nivel demasiado alto (los tres)
+
+Cualquier otra combinación es inconsistente, como por ejemplo b2=1 y b1=0 y por eso se considera error.
+
+  - H1 (Fill level correct)
+    - 110 (b1=1, b2=1, b3=0)
+    - Si el sensor inferior (b1) y el medio (b2) están activos pero el superior (b3) no, significa que el líquido llegó al nivel medio pero no al putno en el que riega el liquido, es por eso que se considera el nivel “correcto”.
+    - ¿Qué debe pasar?: Encender la luz ligada a h1 (luz verde) indicando “nivel correcto”
+
+  - H2 (Fill level too low)
+    - 100 (b1=1, b2=0, b3=0)
+    - Solo el sensor de abajo detecta líquido, esto significa que el nivel está por debajo del mínimo aceptable
+    - ¿Qué debe pasar? Encender la luz ligada a H2 (luz amarilla) indicando que el nivel esta muy abajo del úmbral
+   
+  - H3  (Fill level too high)
+    - 111 (b1=1, b2=1, b3=1)
+    - Los tres sensores activos significan que el líquido llegó al tope de la capcidad del tanque, es decir que la condicion ahora es de sobrellenado.
+    - ¿Qué debe pasar? Encender H3 (luz amarilla), y lo ideal seria detener cualquier acción de llenado inmediatamente
+   
+  - H4 (Tank empty)
+    - 000 (b1=0, b2=0, b3=0)
+    - Ningún sensor detecta líquido, eso significa que el tanque esta vacío.
+    - ¿Qué debe pasar?: Encender H4 (luz roja)
+
+  - H5 (Error)
+    - 001, 010, 011, 101
+      - 001 = sólo sensor de arriba activo 
+      - 010 = sólo sensor del medio activo sin inferior 
+      - 011 = sensor de arriba y medio detectan líquido pero el de abajo no
+      - 101 = sensor inferior y de arriba detectan pero el del medio no
+    - Estas combinaciones violan la lógica física, por ejemplo si hay líquido en el sensor superior, los inferiores también deben estar activos. Su presencia indica sensor defectuoso, cableado o lectura errática
