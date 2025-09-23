@@ -1,4 +1,4 @@
-# Actividad de refuerzo 2.3
+<img width="872" height="703" alt="image" src="https://github.com/user-attachments/assets/e79643ff-5824-4bda-8cc0-114efce903fb" /># Actividad de refuerzo 2.3
 ## Proyecto: Monitoreo Automático de Niveles de Tanque con PLC
 
 ### Introducción
@@ -21,8 +21,17 @@ Los sensores empleados para la supervisión del tanque son interruptores de nive
 
 La combinación de estas señales permite identificar cuatro estados principales:
 
-- Tanque vacío.
-- Nivel demasiado bajo.
-- Nivel correcto.
-- Nivel demasiado alto.
+- Tanque vacío (b1=0, b2=0,b3=0)
+- Nivel demasiado bajo (b1=1, b2=0, b3=0)
+- Nivel correcto (b1=1, b2=1, b3=0)
+- Nivel demasiado alto (b1=1, b2=1, b3=1)
+
+#### Tabla de Verdad
+Muestra todas las combinaciones posibles de entradas (b1, b2, b3) y las salidas correspondientes (h1–h5) y lo que dee ocurrir en casa situacion que en la tabla esta en la columna "State", a partir de esta se pueden sacarlas funciones logicas, que a su vez sirven para sacar las compuertas logicas y finalmente el ladder
+
+  ![.](imagenesWiki/tabla.png)
+
+#### Funciones Booleanas y Diagramas de Circuito Lógico
+
+  ![.](imagenesWiki/logico.png)
 
