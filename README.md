@@ -141,6 +141,7 @@ Las lineas H1,H2,H3 y H4 son el mismo diagrama que antes, lo que cambia es la ma
  
 ![.](imagenesWiki/ladder7.png)
 
--  y aqui se muestran las dos posibles opciones, que vaya por el camino de p1 o pñor el camino de p2, esto permite que la salida H5 pueda encenderse por varias combinaciones distintas de entradas.
+-  Aqui se muestran las dos posibles opciones, que vaya por el camino de p1 o pñor el camino de p2, esto permite que la salida H5 pueda encenderse por varias combinaciones distintas de entradas.
 
+![.](imagenesWiki/ladder8.png)
 
