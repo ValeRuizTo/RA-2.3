@@ -112,10 +112,14 @@ En ladder se lee de izquierda a derecha y de arriba a abajo
 
 - Línea de H5(Error):
     - Hay dos posibles opciones
+      
       -    ![.](imagenesWiki/ladder2.png)
+      - 
       -    Hay un contacto b1 en serie con b2 pero aparece un puente con b3 en paralelo con b2.
       -    Es decir, sera cerrado si se cumple que b1 este activado Y b2 este activado b3 activado
+      - 
       -  ![.](imagenesWiki/ladder3.png)
+      - 
       -  Está b2 en serie con b3.
       -  se cerrará si b2 y b3 están activados al mismo tiempo.
     - esto hace que se tomen todas las posibles opciones donde deberia ser error
@@ -132,6 +136,7 @@ Las lineas H1,H2,H3 y H4 son el mismo diagrama que antes, lo que cambia es la ma
   - Contactos: b1 en serie con b2 o b3 en paralelo.
   - Bobina de salida, como relay interno P1
   - P1 se activa si se  b1 esta en 1  y  b2 o b3 estan en 1
+  - 
 ![.](imagenesWiki/ladder6.png)
 
 - La segunda linea tiene:
