@@ -73,3 +73,19 @@ Cualquier otra combinación es inconsistente, como por ejemplo b2=1 y b1=0 y por
       - 011 = sensor de arriba y medio detectan líquido pero el de abajo no
       - 101 = sensor inferior y de arriba detectan pero el del medio no
     - Estas combinaciones violan la lógica física, por ejemplo si hay líquido en el sensor superior, los inferiores también deben estar activos. Su presencia indica sensor defectuoso, cableado o lectura errática
+
+#### Diagrama ladder 
+
+  ![.](imagenesWiki/ladder1.png)
+
+- **Estructura del diagrama**
+
+  - El diagrama tiene 5 lineas horizontales, que se ven como h1-h5
+
+  - Los elementos están etiquetados como b1, b2, b3, que son las entradas del dip switch, (0 o 1) para que se activan o no las bobinas
+
+    - Se tienen contactos normalmente abierto -||- que en su estado natural (sin energizar): el circuito está abierto entonces no deja pasar corriente. Al accionar el contacto se cierra y permite el paso de corriente.
+
+    - Normalmente cerrado -|/|- en su estado natural (sin energizar): el circuito está cerrado por lo que sí deja pasar corriente y al accionar el contacto se abre e interrumpe el paso de corriente.
+
+  - Cada renglón esta diseñado para energizar una "bobina" que son las salidas
