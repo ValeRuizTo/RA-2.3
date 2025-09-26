@@ -152,7 +152,7 @@ Las lineas H1,H2,H3 y H4 son el mismo diagrama que antes, lo que cambia es la ma
 
 ![.](imagenesWiki/laddercode.png)
 
-Este diagrama es el mismo que se hizo a mano pero en codesys para hacer la simulacion del funcionamineto, probar si el diagrama ladder realmente representa la logica del tanque, para la parte de simulacion se tiene el siguiente diagrama
+Este diagrama es el mismo que se hizo a mano pero en codesys para hacer la simulacion del funcionamiento, probar si el diagrama ladder realmente representa la logica del tanque, para la parte de simulacion se tiene el siguiente diagrama
 
 ![.](imagenesWiki/code1.png)
 
