@@ -253,7 +253,9 @@ En cuanto a las salidas, se conectaron cinco LEDs de distintos colores, cada uno
 - LED rojo: indica “tanque vacío”.
 - LED azul: indica el estado de “error”.
 
-En la carpeta de archivos se incluye un video demostrativo donde se muestra el funcionamiento práctico del sistema del tanque con el Arduino
+En la carpeta de archivos se incluye un video demostrativo donde se muestra el funcionamiento práctico con el Arduino
+[Ver video](funcionamientopractico.mp4)
+
 
 #### Referencias 
 
