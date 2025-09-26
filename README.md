@@ -115,9 +115,9 @@ En ladder se lee de izquierda a derecha y de arriba a abajo
       - 
       -    Hay un contacto b1 en serie con b2 pero aparece un puente con b3 en paralelo con b2.
       -    Es decir, sera cerrado si se cumple que b1 este activado Y b2 este activado b3 activado
-      - 
+        
       -  ![.](imagenesWiki/ladder3.png)
-      - 
+        
       -  Está b2 en serie con b3.
       -  se cerrará si b2 y b3 están activados al mismo tiempo.
     - esto hace que se tomen todas las posibles opciones donde deberia ser error
@@ -148,7 +148,7 @@ Las lineas H1,H2,H3 y H4 son el mismo diagrama que antes, lo que cambia es la ma
 
 ![.](imagenesWiki/ladder8.png)
 
-#### Codesys simluacion 
+#### Codesys simluación 
 
 ![.](imagenesWiki/ladderco.png)
 
