@@ -82,9 +82,9 @@ Cualquier otra combinación es inconsistente, como por ejemplo b2=1 y b1=0 y por
 
   - Los elementos están etiquetados como b1, b2, b3, que son las entradas del dip switch, (0 o 1) para que se activan o no las bobinas
 
-    - Se tienen contactos normalmente abierto -||- que en su estado natural (sin energizar): el circuito está abierto entonces no deja pasar corriente. Al accionar el contacto se cierra y permite el paso de corriente.
+    - Se tienen contactos normalmente abierto -||- que en su estado natural (sin energizar): el circuito está abierto entonces no deja pasar corriente. Al accionar el contacto se cierra y permite el paso de corriente [3]
 
-    - Normalmente cerrado -|/|- en su estado natural (sin energizar): el circuito está cerrado por lo que sí deja pasar corriente y al accionar el contacto se abre e interrumpe el paso de corriente.
+    - Normalmente cerrado -|/|- en su estado natural (sin energizar): el circuito está cerrado por lo que sí deja pasar corriente y al accionar el contacto se abre e interrumpe el paso de corriente [3]
 
   - Cada renglón esta diseñado para energizar una "bobina" que son las salidas
 
@@ -259,4 +259,5 @@ En cuanto a las salidas, se conectaron cinco LEDs de distintos colores, cada uno
 
 [2] “Ladder Logic Basics,” Ladder Logic World, Agosto 2024 Disponible en: https://ladderlogicworld.com/ladder-logic-basics/
 
+[3] “Contactor NO NC - Contactos Normalmente Abiertos vs. Normalmente Cerrados,” LETOP, actualizado el 4 de septiembre de 2025. Disponible en: https://letopv.com/es/no-nc-contactor-normalmente-abierto-vs-contactos-normalmente-cerrados/
 
