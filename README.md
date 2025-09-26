@@ -252,9 +252,15 @@ En cuanto a las salidas, se conectaron cinco LEDs de distintos colores, cada uno
 - LED verde: indica “nivel correcto”.
 - LED rojo: indica “tanque vacío”.
 - LED azul: indica el estado de “error”.
+![.](imagenesWiki/fisico4.jpg)
 
-En la carpeta de archivos se incluye un video demostrativo donde se muestra el funcionamiento práctico con el Arduino
-[Ver video](funcionamientopractico.mp4)
+![.](imagenesWiki/fisico5.jpg)
+![.](imagenesWiki/fisico6.jpg)
+![.](imagenesWiki/fisico7.jpg)
+![.](imagenesWiki/fisico8.jpg)
+
+
+
 
 
 #### Referencias 
