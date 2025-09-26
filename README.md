@@ -1,4 +1,4 @@
-## Proyecto: Monitoreo Automático de Niveles de Tanque con PLC
+<img width="687" height="586" alt="image" src="https://github.com/user-attachments/assets/395a1440-67e8-461c-8653-c7968e6b9b22" />## Proyecto: Monitoreo Automático de Niveles de Tanque con PLC
 
 ### Introducción
 - Contexto del problema: monitoreo de niveles de líquidos en tanques químicos.
@@ -149,4 +149,10 @@ Las lineas H1,H2,H3 y H4 son el mismo diagrama que antes, lo que cambia es la ma
 -  Aqui se muestran las dos posibles opciones, que vaya por el camino de p1 o pñor el camino de p2, esto permite que la salida H5 pueda encenderse por varias combinaciones distintas de entradas.
 
 ![.](imagenesWiki/ladder8.png)
+#### Codesys simluacion 
+![.](imagenesWiki/ladderco.png)
+Este diagrama es el mismo que se hizo a mano pero en codesys para hacer la simulacion del funcionamineto, probar si el diagrama ladder realmente representa la logica del tanque, para la parte de simulacion se tiene el siguiente diagrama
+![.](imagenesWiki/code1.png)
+
+
 
