@@ -253,6 +253,8 @@ En cuanto a las salidas, se conectaron cinco LEDs de distintos colores, cada uno
 - LED rojo: indica “tanque vacío”.
 - LED azul: indica el estado de “error”.
 
+En la carpeta de archivos se incluye un video demostrativo donde se muestra el funcionamiento práctico del sistema del tanque con el Arduino
+
 #### Referencias 
 
 [1] “¿Qué es un PLC y cómo funciona?”, Industrias GSL, 1 de junio de 2023. Disponible en: https://industriasgsl.com/blogs/automatizacion/que-es-un-plc-y-como-funciona
