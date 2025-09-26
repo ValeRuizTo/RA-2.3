@@ -112,7 +112,7 @@ En ladder se lee de izquierda a derecha y de arriba a abajo
     - Hay dos posibles opciones
       
       -    ![.](imagenesWiki/ladder2.png)
-      - 
+        
       -    Hay un contacto b1 en serie con b2 pero aparece un puente con b3 en paralelo con b2.
       -    Es decir, sera cerrado si se cumple que b1 este activado Y b2 este activado b3 activado
         
@@ -120,7 +120,7 @@ En ladder se lee de izquierda a derecha y de arriba a abajo
         
       -  Está b2 en serie con b3.
       -  se cerrará si b2 y b3 están activados al mismo tiempo.
-    - esto hace que se tomen todas las posibles opciones donde deberia ser error
+    - Esto hace que se tomen todas las posibles opciones donde deberia ser error
 
 #### Diagrama ladder para Codesys
 
